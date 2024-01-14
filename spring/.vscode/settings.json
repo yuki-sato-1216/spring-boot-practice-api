@@ -1,0 +1,26 @@
+{
+  // エディタでスペースを使用するように設定
+  "editor.insertSpaces": true,
+  // ファイルを保存する際に末尾の空白を自動的に削除
+  "files.trimTrailingWhitespace": true,
+  // ファイルを保存する際に最終行の末尾に新しい行を追加
+  "files.insertFinalNewline": true,
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[java]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle"
+}
