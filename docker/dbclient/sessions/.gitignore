@@ -2,4 +2,3 @@
 *
 # .gitignoreファイルだけは監視対象
 !.gitignore
-!sessions
