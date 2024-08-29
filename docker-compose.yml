@@ -14,7 +14,7 @@ services:
     volumes:
       - ./spring:/app
     ports:
-      - 8080:8080 # 通常実行用
+      - 8000:8000 # 通常実行用
       - 5050:5050 # デバッグ用
     depends_on:
       - mysql
