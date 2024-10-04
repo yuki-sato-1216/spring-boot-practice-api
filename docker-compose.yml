@@ -1,12 +1,7 @@
-version: '3'
-
 services:
   java:
     build:
       context: ./docker/java
-      args:
-        - GIT_USER_NAME="yuki-sato-1216"
-        - GIT_USER_EMAIL="devyusa1216@gmail.com"
     command: sh ./gradlew build --continuous # 自動ビルド実行
     container_name: spring_java
     tty: true
