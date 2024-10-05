@@ -1,0 +1,5 @@
+# フォルダ内のファイルを全無視
+*
+# .gitignoreファイルだけは監視対象
+!.gitignore
+!sessions
