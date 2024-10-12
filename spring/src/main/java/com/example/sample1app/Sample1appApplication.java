@@ -11,6 +11,7 @@ public class Sample1appApplication {
 
   @RequestMapping("/")
   public String home() {
+    System.out.println("git test");
     return "Hello World";
   }
 
