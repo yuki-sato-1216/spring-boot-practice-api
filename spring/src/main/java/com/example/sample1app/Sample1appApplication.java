@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Sample1appApplication {
 
-  @RequestMapping("/")
+  @RequestMapping("/api")
   public String home() {
-    return "Hello World";
+    return "本サービスはAPIを提供しますOpenAPI仕様書をご確認の上、適切なAPIパスをご利用ください。";
   }
 
   public static void main(String[] args) {
