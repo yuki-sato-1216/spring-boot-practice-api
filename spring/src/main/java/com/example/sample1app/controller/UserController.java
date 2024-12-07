@@ -18,8 +18,28 @@ public class UserController {
 	UserUsecase usecase;
 
 	@GetMapping
-	public ResponseEntity<List<UserDto>> invoke() {
+	public ResponseEntity<List<UserDto>> getAllUsers() {
 		final List<UserDto> users = this.usecase.findUserList();
 		return ResponseEntity.ok(users);
 	}
+
+    // @GetMapping("/{id}")
+    // public ResponseEntity<UserDto> getUserById(@PathVariable Long id) {
+	// 	// TODO: 指定したIDのユーザー取得する
+    // }
+
+	// @PostMapping
+    // public ResponseEntity<UserDto> createUser(@RequestBody UserDto userDto) {
+	// 	// TODO: ユーザーを作成する
+    // }
+
+    // @PutMapping("/{id}")
+    // public ResponseEntity<UserDto> updateUser(@PathVariable Integer id, @RequestBody UserDto userDto) {
+	// 	// TODO: 指定したIDのユーザーを更新する
+    // }
+
+    // @DeleteMapping("/{id}")
+    // public ResponseEntity<Void> deleteUser(@PathVariable Integer id) {
+	// 	// TODO: 指定したIDのユーザーを削除する
+    // }
 }
