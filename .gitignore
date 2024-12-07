@@ -1,2 +1,25 @@
+# Env
 .env
 .DS_Store
+
+# Build system
+HELP.md
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Test results
+test-results/
+
+# Dependency caches
+.m2/
+.gradle/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.docker/
+
+# VScode settings
+.vscode/

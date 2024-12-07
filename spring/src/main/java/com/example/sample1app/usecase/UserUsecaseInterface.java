@@ -5,5 +5,5 @@ import java.util.List;
 import com.example.sample1app.dto.UserDto;
 
 public interface UserUsecaseInterface {
-    List<UserDto> getUsers();
+    List<UserDto> findUserList();
 }

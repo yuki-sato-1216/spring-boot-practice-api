@@ -22,7 +22,6 @@ public class UserService implements UserServiceInterface {
 
     // ユーザー情報取得 - 一覧
     public List<UserDto> findUserList() {
-        // var userEntityList = repository.findAll();
         List<UserDto> userDtoList = new ArrayList<>();
         for (UserEntity entity : repository.findAll()) {
             userDtoList.add(mapper.mapToDto(entity));

@@ -2,6 +2,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Spring Boot-Sample1appApplication<spring>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -12,6 +13,8 @@
         },
         {
             "type": "java",
+=======
+>>>>>>> feature/api
             "name": "Spring Boot-Sample1appApplication<sample1app-spring>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
