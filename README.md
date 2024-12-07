@@ -4,7 +4,7 @@
   - [VSCode](https://code.visualstudio.com/download)
 
 ### 1. VSCodeの準備
-1. コンテナ内を表示するVSCodeの拡張機能から、以下のプラグインを検索してインストールする
+1. VSCodeの拡張機能から、以下のプラグインを検索してインストールする
    - vscjava.vscode-java-pack
    - vmware.vscode-boot-dev-pack
    - vscjava.vscode-gradle
